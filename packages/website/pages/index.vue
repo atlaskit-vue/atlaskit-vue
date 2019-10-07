@@ -49,15 +49,22 @@
         </av-banner>
       </av-col>
     </av-row>
+    <av-row>
+      <av-col>
+        <breadcrumbs />
+      </av-col>
+    </av-row>
   </av-container>
 </template>
 
 <script>
 import Blanket from '../examples/Blanket'
+import Breadcrumbs from '../examples/Breadcrumbs'
 
 export default {
   components: {
     Blanket,
+    Breadcrumbs,
   },
   head: {
     title: 'Home',

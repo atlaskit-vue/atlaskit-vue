@@ -1,0 +1,19 @@
+@import '../../css/config/colors';
+
+.av-breadcrumbs-item {
+  display: flex;
+  flex-direction: row;
+  height: 1.71429em;
+  line-height: 1.71429em;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+
+  .seperator {
+    color: $n100;
+    flex-shrink: 0;
+    padding: 0 8px;
+    text-align: center;
+    width: 8px;
+  }
+}
