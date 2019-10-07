@@ -49,15 +49,22 @@
         </av-banner>
       </av-col>
     </av-row>
+    <av-row>
+      <av-col>
+        <pagination />
+      </av-col>
+    </av-row>
   </av-container>
 </template>
 
 <script>
 import Blanket from '../examples/Blanket'
+import Pagination from '../examples/Pagination'
 
 export default {
   components: {
     Blanket,
+    Pagination,
   },
   head: {
     title: 'Home',
